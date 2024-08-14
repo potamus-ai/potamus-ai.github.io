@@ -33,6 +33,7 @@ body {
     text-decoration: underline; /* Underline on hover */
 }
 
+
 .content {
     display: flex;
     align-items: flex-start;
