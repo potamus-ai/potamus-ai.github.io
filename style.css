@@ -24,7 +24,13 @@ body {
     text-decoration: none;
     color: black;
     margin-left: 20px;
+    font-size: 20px;
     font-weight: bold;
+    transition: text-decoration 0.3s ease; /* Smooth transition */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 .content {
