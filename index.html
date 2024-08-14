@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potamus AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="header-container"></div>
+    <center>
+    <div class="graphic">
+        <img src="./img/circle.png" alt="Potamus AI Mascot" width="500px">
+    </div>
+
+    <div class="tagline">
+        <b>Innovating in Silence:</b> Groundbreaking AI Startup in Stealth Mode
+    </div>
+    </center>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+
+</body>
+</html>

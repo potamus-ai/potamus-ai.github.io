@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.text p {
+    font-size: 17px; /* or whatever size you prefer */
+    line-height: 1.5; /* Adjusts the line spacing for better readability */
+}
+
+.graphic {
+    margin-top: 50px;
+}
+
+.tagline {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Potamus AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="header-container"></div>
+
+    <div class="content">
+        <img src="./img/bitonti_a_black_and_white_photograph_of_a_tough_and_cool_hippop_3623b017-452d-49ed-a06e-9d02d5be2634.png" alt="Potamus AI">
+        <div class="text">
+            <h1>About Potamus AI</h1>
+            <p>Potamus is an innovative startup currently in stealth mode, dedicated to building cutting-edge multimodal AI with a strong emphasis on vision-based technologies. Our mission is to transform the construction industry by harnessing the power of advanced AI to drive significant improvements across the sector. While we are not sharing specific details at this time, our technology is designed to bring about a new era of efficiency, safety, and sustainability in construction.</p>
+        </div>
+    </div>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+
+</body>
+</html>
